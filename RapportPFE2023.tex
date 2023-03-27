@@ -1,9 +1,108 @@
-\documentclass{article}
+\documentclass{report}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{titlesec}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+%\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{ifpdf}
+\usepackage{ae}
 
-% /*"cSpell.language": "French"*/
+
+
+\renewcommand{\thesection}{\Roman{section}} 
+\renewcommand{\thesubsection}{\arabic{subsection}}
+\titlespacing{\subsection}{5pt}{1em}{0pt}
+\title{Cover page}
+\date{03/26/2023}
+\author{Ahmed Omrani}
 
 \begin{document}
-  Ceci est notre rapport.
+
+  \maketitle
+
+  \newpage
+\pagenumbering{gobble}
+\begin{center}
+\section*{Thanks}
+\end{center}
+  As I sit down to pen my farewell message at the end of my final year's internship, my mind is filled with a swirl of emotions. I can't help but feel a deep sense of gratitude towards the people who have helped me grow and develop over the past few months. Foremost among them is my supervisor, Mr Radhwen Aloui. His guidance, support, and mentorship have been invaluable to me, and I am truly grateful for the opportunity to have worked under his tutelage. His constant feedback and encouragement have helped me push my limits and reach new heights, particularly in the field of AI, where he encouraged me to excel and explore my potential.
+
+I would also like to extend my thanks to my academic institution, where I have spent the past three years studying and learning. The institution's safe and educative environment has provided me with a solid foundation on which I can build my future. I will always cherish the memories of my time here, the friends I made, and the knowledge I gained.
+
+Lastly, I would like to express my heartfelt gratitude to the jury members who took the time to review my rapport. I understand that your time is precious, and I appreciate your efforts in evaluating my work. I hope that my report reflects the hard work and dedication that I have put into my project over the past four months. Once again, thank you to everyone who has contributed to my growth and success during my internship, and I will always cherish the lessons and experiences that I have gained from this remarkable journey.
+  \newpage
+\tableofcontents
+
+  \newpage
+\begin{center}
+\section*{Introduction}
+\end{center}
+The lack of precision in manufacturing has been a persistent challenge for businesses of all sizes, from the largest manufacturing plants to the most humble workshops.
+Manufacturing businesses are often faced with the challenge of maintaining consistent precision in their production processes. The slightest deviation from the required standards can result in defective products, which can cause harm to the business's reputation and decrease sales. The causes of lack of precision can be numerous, ranging from technical glitches in production equipment to human error in the assembly line. Furthermore, production inefficiencies can also lead to a lack of precision, as poorly designed or executed manufacturing processes can result in inconsistent products.[1]
+
+In addition to the negative consequences of producing defective products, the costs associated with reworking, scrapping, or returning products can add up quickly. These expenses can negatively impact the company's bottom line and can even jeopardize the company's financial stability in the long run. As a result, it is critical for manufacturing businesses to implement rigorous quality control measures to ensure that products meet or exceed the required standards consistently. [2]
+One solution that has shown great promise is the use of artificial intelligence and machine learning algorithms, such as neural networks, to optimize production processes and improve product quality. [1]
+
+Neural networks and other artificial intelligence technologies have the potential to revolutionize the manufacturing industry by enabling businesses to identify and address issues more quickly and efficiently. With the ability to analyze vast amounts of data in real-time, these technologies can help businesses make informed decisions about how to improve their processes and reduce the risk of defective products. Moreover, by reducing the costs associated with reworking, scrapping, or returning products, these technologies can also help businesses improve their bottom line and increase profitability. [1]  [3]
+
+
+At TOP TETHER, the company where I completed my internship, we were able to leverage the power of YOLOV5 [4] to mitigate the problem of defective products and returns. By analyzing vast amounts of data from our manufacturing processes, we were able to identify patterns and correlations that were not immediately visible to the human eye. This enabled us to make products that were consistently of higher quality and closer to the required standards.
+
+
+In conclusion, while the lack of precision in manufacturing remains a persistent challenge for many businesses, advances in technology offer promising solutions. By leveraging the power of artificial intelligence and machine learning algorithms, such as neural networks, businesses can gain deeper insights into their production processes, optimize their operations, and improve the quality of their products. As a result, they can reduce the risk of defective products and associated costs, while also improving their reputation and bottom line.
+
+\newpage
+
+
+\chapter{Project Framework and Methodology}
+\section*{Introduction}
+ %Presentation of the  enterprise
+\section{Presentation of the  enterprise}
+\subsection{description of the  enterprise }
+\subsection{description of the  enterprise's services}
+\subsection{administrative organization chart of the enterprise}
+\vspace{1em}
+ %Presentation of the  enterprise
+\section{Study of the existing system}
+\subsection{description of the existing system }
+\subsection{criticism of the existing system}
+\subsection{administrative organization chart of the enterprise}
+\vspace{1em}
+ %Working methodology and modeling language
+\section{Working methodology and modeling language}
+\subsection{Traditional work methodology vs Agile method }
+\subsection{Chosen methodology: SCRUM}
+\subsection{Modeling languages : UML and SysMl}
+\vspace{1em}
+\section*{Conclusion}
+
+\chapter{Sprint0 :  <{}< version 0 >{}>}
+\section*{Introduction}
+\section{Specification of requirements}
+\subsection{actors identification }
+\subsection{Description of functional requirements}
+\subsection{Description of non-functional requirements}
+\vspace{1em}
+
+\section{Modeling languages diagrams}
+\subsection{UML}
+\subsection{SysMl}
+\vspace{1em}
+
+
+\section{Project component}
+\subsection{Hardware environment}
+\subsection{Software  environment }
+\subsection{Technologies used}
+\vspace{1em}
+\section{Project management with SCRUM }
+\subsection{Team and roles}
+\subsection{Backlog Product}
+\vspace{1em}
+\section*{Conclusion}
+
+
+
+
 \end{document}
